@@ -10,7 +10,7 @@ const app = express();
 // PORT
 const { PORT } = require("./config");
 // se conecta con mongo
-const mongo = require("./db/connect-old");
+const mongo = require("./db/connect");
 // // AGREGAR MODULOS LOCALES
 require("./routes/api")(app);
 require("./routes/views")(app);

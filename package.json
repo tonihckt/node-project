@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:notes": "nodemon index-func.js",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "fill-db": "node ./db/populate --fill",
+    "clear-db": "node ./db/populate --clear"
   },
   "keywords": [
     "\"nodejs\""
